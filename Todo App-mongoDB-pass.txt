@@ -1,0 +1,7 @@
+Todo App
+MongoDB Atlas
+
+username : vishnulassie99_db_user
+password : NowfkXREoeFRpIxQ
+
+connection String : mongodb://vishnulassie99_db_user:<db_password>@ac-ioto40b-shard-00-00.ofvyiza.mongodb.net:27017,ac-ioto40b-shard-00-01.ofvyiza.mongodb.net:27017,ac-ioto40b-shard-00-02.ofvyiza.mongodb.net:27017/?ssl=true&replicaSet=atlas-12y25w-shard-0&authSource=admin&appName=ToDoApp
