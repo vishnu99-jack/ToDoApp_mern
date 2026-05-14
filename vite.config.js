@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  base: "/ToDoApp_mern/taskflow-frontend/",
+  base: "/ToDoApp_mern/",
 })
