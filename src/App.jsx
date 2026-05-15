@@ -45,7 +45,7 @@ function App() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/todos",
+        "https://taskflow-backend-6dj3.onrender.com/todos",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -71,7 +71,7 @@ function App() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/todos",
+        "https://taskflow-backend-6dj3.onrender.com/todos",
         {
           text: input
         },
@@ -97,7 +97,7 @@ function App() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/todos/${id}`,
+        `https://taskflow-backend-6dj3.onrender.com/todos/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -119,7 +119,7 @@ function App() {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/todos/${id}`,
+        `https://taskflow-backend-6dj3.onrender.com/todos/${id}`,
         {},
         {
           headers: {

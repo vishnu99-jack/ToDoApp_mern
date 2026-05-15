@@ -18,7 +18,7 @@ function Signup({ setIsLoggedIn, setShowSignup }) {
         try {
 
             const response = await axios.post(
-                "http://localhost:5000/signup",
+                "https://taskflow-backend-6dj3.onrender.com/signup",
                 {
                     username,
                     email,
