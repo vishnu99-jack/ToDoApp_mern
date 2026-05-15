@@ -201,3 +201,74 @@ body{
 .delete-btn:hover {
     background: darkred;
 }
+
+.auth-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.auth-message {
+
+    color: white;
+
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+.switch-auth {
+
+    color: white;
+
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+.switch-auth span {
+
+    color: #00c6ff;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    margin-left: 8px;
+}
+
+.switch-auth span:hover {
+
+    text-decoration: underline;
+}
+
+.logout-btn {
+
+    border: none;
+
+    background: crimson;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+
+    background: darkred;
+
+    transform: scale(1.05);
+}
